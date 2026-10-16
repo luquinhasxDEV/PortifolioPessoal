@@ -1,16 +1,49 @@
-# React + Vite
+# 💻 Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/luquinhasxDEV/PortifolioPessoal?style=for-the-badge&color=00875F" alt="Linguagem principal" />
+  <img src="https://img.shields.io/github/repo-size/luquinhasxDEV/PortifolioPessoal?style=for-the-badge&color=202024" alt="Tamanho do repositório" />
+  <img src="https://img.shields.io/github/last-commit/luquinhasxDEV/PortifolioPessoal?style=for-the-badge&color=00875F" alt="Último commit" />
+</p>
 
-Currently, two official plugins are available:
+## 📌 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este repositório contém o código-fonte do meu **Portfólio Pessoal**, desenvolvido para apresentar meus principais projetos, habilidades técnicas, formação acadêmica e trajetórias no desenvolvimento de software.
 
-## React Compiler
+🔗 **Acesse o portfólio online:** [Seu Link de Deploy Aqui](https://seu-link.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias e Ferramentas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O projeto foi construído utilizando as seguintes tecnologias:
+
+- **Frontend:** HTML5, CSS3, JavaScript / React / TypeScript *(ajuste conforme o projeto)*
+- **Styling:** Tailwind CSS / CSS Modules *(opcional)*
+- **Hospedagem / Deploy:** Vercel / GitHub Pages / Netlify
+
+---
+
+## 🎨 Funcionalidades
+
+- [x] Apresentação pessoal e sobre mim
+- [x] Exibição de projetos em destaque com links para o código e demonstração
+- [x] Seção de habilidades técnicas e competências (Hard & Soft Skills)
+- [x] Formas de contato e links sociais
+- [x] Design responsivo (adaptado para dispositivos móveis e desktop)
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+```bash
+# 1. Clone este repositório
+git clone [https://github.com/luquinhasxDEV/PortifolioPessoal.git](https://github.com/luquinhasxDEV/PortifolioPessoal.git)
+
+# 2. Acesse a pasta do projeto
+cd PortifolioPessoal
+
+# 3. Abra o arquivo index.html no navegador ou inicie o servidor local
+# Para projetos em React/Node:
+# npm install
+# npm run dev
