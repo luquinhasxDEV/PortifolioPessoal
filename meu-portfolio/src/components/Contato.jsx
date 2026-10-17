@@ -3,7 +3,7 @@ export default function Contato() {
     {
       title: 'E-mail',
       subtext: 'Enviar mensagem direta',
-      link: 'mailto:lucas.santos050406@gmail.com',
+      link: 'https://mail.google.com/mail/?view=cm&fs=1&to=lucas.santos050485@gmail.com&su=Contato%20via%20Portf%C3%B3lio',
       icon: '✉️'
     },
     {
@@ -34,8 +34,7 @@ export default function Contato() {
           {contactLinks.map((item, index) => (
             <a 
               key={index} 
-              href={item.link} 
-              target="_blank" 
+              href={item.link}
               rel="noreferrer"
               className="bg-[#1E293B] border border-[#374151] p-5 rounded-2xl hover:border-gray-400 transition-all group"
             >
