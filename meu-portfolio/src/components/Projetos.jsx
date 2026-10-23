@@ -1,6 +1,8 @@
 import safeip from '../assets/Logo SafeIP.png';
 import autoplan from '../assets/autoplan.png';
 import cine from '../assets/cineFlurrys.jpg';
+import porti from '../assets/portifolio.png'
+import crud from '../assets/CRUD.png'
 
 export default function Projetos() {
   const projectsList = [
@@ -36,6 +38,30 @@ export default function Projetos() {
         { name: 'JavaScript', color: 'border-yellow-500/50' }
       ],
       github: 'https://github.com/luquinhasxDEV/Cine-Flurrys'
+    },
+    {
+      title: 'Meu Portifólio',
+      image: porti,
+      description: 'Portifólio que contém informações básicas e completas sobre mim, Lucas. Assim, mostra meus projetos, meus connhecimentos, meus contatos e muito mais',
+      techs: [
+        { name: 'CSS', color: 'border-blue-500/50' },
+        { name: 'JavaScript', color: 'border-yellow-500/50' },
+        { name: 'HTML', color: 'border-blue-500/50' },
+        { name: 'Figma UI', color: 'border-emerald-500/50' }
+      ],
+      github: 'https://github.com/luquinhasxDEV/PortifolioPessoal'
+    }, 
+    {
+      title: 'Primeiro CRUD',
+      image: crud,
+      description: 'Sistema de cadastro e login básicos para testar conhecimentos de Backend, Banco de dados e Frontend integrados, utilizando frameworks novos.',
+      techs: [
+        { name: 'Java', color: 'border-orange-500/50' },
+        { name: 'React.js', color: 'border-yellow-500/50' },
+        { name: 'Tailwind.CSS', color: 'border-blue-500/50' },
+        { name: 'HTML', color: 'border-blue-500/50' }
+      ],
+      github: 'https://github.com/luquinhasxDEV/primeiroCRUD'
     }
   ];
 
